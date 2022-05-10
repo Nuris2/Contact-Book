@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1 class="book">Contact Book</h1>
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Name: </span>
+            <input type="text" class="task-input" placeholder="Введите Имя" />
+            <span>Email: </span>
+            <input type="text" class="task-email" placeholder="Введите Email" />
+            <span>Image: </span>
+            <input
+              type="url"
+              class="task-image"
+              placeholder="Введите URL картинки"
+              class="image-input"
+            />
+            <img src="" id="image" />
+          </div>
+
+          <div class="field">
+            <button class="btn">Add task</button>
+          </div>
+        </div>
+      </div">
+      <div class="container">
+        <ol class="task-list"></ol>
+        <ol class="task-email"></ol>
+        <ol class="task-image"></ol>
+      </div>
+    </div>
+
+    <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp-edit" />
+        <button class="btn-save">Save</button>
+      </div>
+    </div>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
